@@ -1,5 +1,6 @@
+var idade, eleitor, resultado;
+idade = 62;
+eleitor = (idade<18)? "Não, eleitor": "Sim, eleitor"
 
-var a=1;
-var b=5;
-var c=a;
-console.log(c);
+resultado = !(idade === 65 || idade === 72);
+alert(resultado)
