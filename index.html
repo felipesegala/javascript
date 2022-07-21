@@ -9,12 +9,30 @@
         body{
             text-align: center;
         }
+
+        div {
+            margin: auto auto; 
+            width: 80%; 
+            height: 200px; 
+            background-color: blue;
+        }
+
+        input {
+            padding: 80px; 
+            font-size: 40px;
+        }
     </style>
 </head>
 <body>
     <h1> Aprendendo JS</h1>
     <p id="texto"></p>
-    <button onclick="alertaHello()"> Clique aqui</button>
+    <button ondblclick="eventoDblClick()"> Clique aqui</button><br><br>
+
+    
+    <div id="teste" onmouseout="viraAzul()" onmouseover="viraVermelho()"></div><br><br>
+
+    <input id="campoTexto" onkeypress="teclaPressionada()" onblur="eventoClick()" onchange="mudou()" type="text" placeholder="Digite alguma coisa"> <br>
+
     <script src="javascript-youtube/script.js"></script>
 </body>
 </html>

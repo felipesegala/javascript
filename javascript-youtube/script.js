@@ -1,5 +1,9 @@
- //Uma função JavaScript é executada quando "algo" a invoca (chama-a).
+const lista = [
+   "arroz",
+   "feijao",
+   "macarrão",
+   "Leite",
+]
 
- function alertaHello(){
-    alert("Ola pessoal");
- }
+let x = lista[3];
+console.log(lista)
