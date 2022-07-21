@@ -1,6 +1,5 @@
-var idade, eleitor, resultado;
-idade = 62;
-eleitor = (idade<18)? "Não, eleitor": "Sim, eleitor"
+ //Uma função JavaScript é executada quando "algo" a invoca (chama-a).
 
-resultado = !(idade === 65 || idade === 72);
-alert(resultado)
+ function alertaHello(){
+    alert("Ola pessoal");
+ }
